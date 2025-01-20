@@ -21,7 +21,7 @@ import java.util.Scanner;
 public class Principal {
     private Scanner teclado = new Scanner(System.in);
     private ConsumoAPI consumoAPI = new ConsumoAPI();
-    private final String API_KEY = "2d00edd7779cbfb2f4f9d2cd";
+    private final String API_KEY = "TU_API_KEY";
     private final String URL_BASE = "https://v6.exchangerate-api.com/v6/"+ API_KEY +"/pair/";
     private ConvierteDatos conversor = new ConvierteDatos();
 
